@@ -7,7 +7,9 @@ void main() {
         backgroundColor: Colors.white,
         body: SafeArea(
           child: Center(
-            child: Column(children: [
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              children: [
               Container(
                 width: 400.0,
                 child: Image(image: AssetImage('images/logoe.jpg')),
@@ -16,7 +18,7 @@ void main() {
                 child: Text(
                   'Everything you need to know about your insurance',
                   style: TextStyle(
-                    fontSize: 30.0,
+                    fontSize: 25.0,
                     color: Colors.black,
                     fontWeight: FontWeight.bold,
                   ),
